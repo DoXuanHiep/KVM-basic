@@ -2,6 +2,7 @@
 
 ## Môi trường
 KVM: ubuntu_server_20.04
+
 Webvirtcloud: ubuntu_desktop_18.04
 
 ## Tài liệu tham khảo

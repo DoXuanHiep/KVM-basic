@@ -1,6 +1,6 @@
 # Installation
 
-1. `sudo apt -y install bridge-utils cpu-checker libvirt-clients libvirt-daemon libvirt-daemon-system qemu qemu-kvm`
+1. `sudo apt -y install qemu-kvm qemu bridge-utils libvirt-daemon-system cpu-checker libvirt-clients`
 
 2. `sed -i -e 's/\#vnc_listen.*$/vnc_listen = "0.0.0.0"/g' /etc/libvirt/qemu.conf` Để mở console
 
